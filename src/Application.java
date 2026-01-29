@@ -1,6 +1,6 @@
 import java.awt.Frame;
 
-public class Application extends Frame {
+public class Application extends Frame  {
 
 	public static void main(String[] args) {
 		new Application();
@@ -17,6 +17,7 @@ public class Application extends Frame {
 		this.setTitle("tutoriel git");
 		this.add(vue);
 		this.pack();
+		this.addWindowListener(modl);
 		this.setVisible(true);
 	}
 
